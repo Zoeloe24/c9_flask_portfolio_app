@@ -36,8 +36,8 @@ def add_numbers_post():
   	      	return "Easy now! Let's keep it simple! 2 numbers with a space between them please"
 
 
-@app.route('/doctor_appointment_app', methods=['GET','POST'])
-def doctor_appointment_app_post():
+@app.route('/shopping_list', methods=['GET','POST'])
+def shopping_list_post():
 	  # --> ['5', '6', '8']
 	  # print(type(request.form['text']))
 
